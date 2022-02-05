@@ -9,13 +9,13 @@
   color: #c00407;
 }
 #services-header {
-    font-size: 40px;
-    color: #222;
-    line-height: 1.2;
-    font-family: Poppins, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    letter-spacing: 0;
+  font-size: 40px;
+  color: #222;
+  line-height: 1.2;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0;
 }
 #subtext-services-header {
   position: relative;
@@ -27,95 +27,273 @@
   font-weight: 400;
   font-style: normal;
 }
-.nav-bar-services a{
+.nav-bar-services a {
   text-decoration: none;
   padding: 0 10px;
   min-width: 320px;
   padding-top: 90px;
   padding-bottom: 90px;
   font-size: 16px;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   color: rgb(101, 101, 101);
   padding-left: 0 10px;
 }
-.nav-bar-services 
-{
-
+.nav-bar-services {
   text-align: center;
 
   min-width: 320px;
   padding-top: 90px;
   padding-bottom: 90px;
-
-   
 }
-#rental-service-img
-{
+#rental-service-img {
   position: relative;
-  width:525px;
-height:631px;
-left: 95px;
+  width: 525px;
+  height: 631px;
+  left: 95px;
 }
-#consulting-img
-{
+#consulting-img {
   position: relative;
-  width:525px;
-height:631px;
-left: 95px;
+  width: 525px;
+  height: 631px;
+  left: 95px;
 }
-#accessories-img
-{
+#accessories-img {
   position: relative;
-  width:525px;
-height:631px;
-left: 95px;
+  width: 525px;
+  height: 631px;
+  left: 95px;
 }
-#repair-img
-{
+#repair-img {
   position: relative;
-  width:525px;
-height:631px;
-left: 95px;
+  width: 525px;
+  height: 631px;
+  left: 95px;
 }
-h4{
+h4 {
   font-size: 22px;
   position: relative;
-    line-height: 1.5;
-    font-family: Poppins,sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0;
-    color: #222;
-    text-transform: none;
-    text-align: right;
-    bottom: 600px;
-    left: -330px;
-}
-.nav-bar-services :hover
-{
+  line-height: 1.5;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
   color: #222;
-
+  text-transform: none;
+  text-align: right;
+  bottom: 600px;
+  left: -330px;
 }
-.nav-bar-services:cliche
-{
+.nav-bar-services :hover {
+  color: #222;
+}
+.nav-bar-services:cliche {
   text-decoration: underline 3px #222;
 }
 
-.rental-services-redirection
-{
- background-color: #c00407;
+.rental-services-redirection {
+  background-color: #c00407;
 }
-#rental-services-description
-{
-color: rgb(81,81,81);
-font-size: 16px;
-    line-height: 1.6;
-    font-family: Roboto,sans-serif;
-    font-weight: 400;
+#rental-services-description {
+  color: rgb(81, 81, 81);
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
-#description-tag
-{
-width:20px;
-height:24px;
+.description {
+  position: relative;
+  text-align: left;
+  left: 690px;
+  bottom: 600px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgb(81, 81, 81);
 }
+
+.tag-text-first {
+  color: rgb(140, 140, 140);
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  text-align: left;
+  left: 720px;
+  bottom: 630px;
+}
+.tag-text-second {
+  color: rgb(140, 140, 140);
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  text-align: left;
+  left: 720px;
+  bottom: 670px;
+}
+.tag-text-third {
+  color: rgb(140, 140, 140);
+  line-height: 1.6;
+  text-align: left;
+  position: relative;
+  text-align: left;
+  left: 720px;
+  bottom: 710px;
+}
+.description-tag-first {
+  width: 20px;
+  height: 24px;
+  text-align: left;
+  position: relative;
+  text-align: left;
+  left: 690px;
+  bottom: 585px;
+}
+.description-tag-second {
+  width: 20px;
+  height: 24px;
+  text-align: left;
+  position: relative;
+  text-align: left;
+  left: 690px;
+  bottom: 625px;
+}
+.description-tag-third {
+  width: 20px;
+  height: 24px;
+  text-align: left;
+  position: relative;
+  text-align: left;
+  left: 690px;
+  bottom: 665px;
+}
+#ourcoffe-main-header {
+  text-align: center;
+  font-family: serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  color: #c00407;
+}
+#discover-our-coffee-header {
+  text-align: center;
+  font-size: 40px;
+  color: #222;
+  line-height: 1.2;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+}
+#subtext-ourcoffee-header {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(101, 101, 101);
+  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #222;
+  text-transform: none;
+}
+
+.coffee-carousel {
+  padding: 0 10vw;
+  display: flex;
+  overflow-y: auto;
+  scroll-behavior: initial;
+  transition: all;
+}
+
+.coffe-img {
+  width: 263px;
+  height: 263px;
+}
+.coffee-name {
+  font-family: Roboto Medium;
+  text-decoration: none;
+  color: #222;
+}
+.coffee-price {
+  font-weight: 700;
+  white-space: nowrap;
+  color: #c00407;
+}
+.add-to-cart {
+  color: #fff;
+  background-color: #c00407;
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  border-radius: 2px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.pre-btn {
+  width: 5px !important;
+  height: 30px;
+  padding-right: 15px;
+  left: 28px;
+  border: none;
+  width: 10vw;
+  height: 5%;
+  position: absolute;
+  top: 350px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 9;
+}
+.nxt-btn {
+  background-color: red;
+  padding-left: 55px;
+  padding: 15px;
+  right: 0px;
+  border: none;
+  width: 10vw;
+  height: 5%;
+  position: absolute;
+  top: 350px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 9;
+}
+.pre-btn {
+  left: 0;
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+#nav-bar-rental-services
+{}
+#nav-bar-consulting{
+
+}
+#nav-bar-accessories{
+  
+}
+#nav-bar-repair
