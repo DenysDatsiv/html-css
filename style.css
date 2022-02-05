@@ -87,9 +87,6 @@ h4 {
 .nav-bar-services :hover {
   color: #222;
 }
-.nav-bar-services:cliche {
-  text-decoration: underline 3px #222;
-}
 
 .rental-services-redirection {
   background-color: #c00407;
@@ -288,12 +285,3 @@ h4 {
 .nxt-btn:hover img {
   opacity: 1;
 }
-#nav-bar-rental-services
-{}
-#nav-bar-consulting{
-
-}
-#nav-bar-accessories{
-  
-}
-#nav-bar-repair
