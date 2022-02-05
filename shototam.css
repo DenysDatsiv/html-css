@@ -1,0 +1,122 @@
+#nameofcoffe {
+    text-align: center;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    color: #c00407;
+  }
+  #discover {
+    text-align: center;
+    font-size: 40px;
+    color: #222;
+    line-height: 1.2;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+  }
+  #wework {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(101, 101, 101);
+    line-height: 1.5;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #222;
+    text-transform: none;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-y: auto;
+    scroll-behavior: initial;
+    transition: all;
+  }
+  
+  #coffeimg {
+    width: 263px;
+    height: 263px;
+  }
+  #coffename {
+    font-family: Roboto Medium;
+    text-decoration: none;
+    color: #222;
+  }
+  #coffeprice {
+    font-weight: 700;
+    white-space: nowrap;
+    color: #c00407;
+  }
+  .addtocart {
+    color: #fff;
+    background-color: #c00407;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .pre-btn {
+    width: 5px !important;
+    height: 30px;
+    padding-right: 15px;
+    left: 28px;
+    border: none;
+    width: 10vw;
+    height: 5%;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 9;
+  }
+  .nxt-btn {
+    background-color: red;
+    padding-left: 55px;
+    padding: 15px;
+    right: 0px;
+    border: none;
+    width: 10vw;
+    height: 5%;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 9;
+  }
+  .pre-btn {
+    left: 0;
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
